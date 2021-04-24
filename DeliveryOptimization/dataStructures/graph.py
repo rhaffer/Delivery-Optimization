@@ -2,7 +2,6 @@ class Vertex:
     """
     Creates the adjacent vertex objects.
     Vertex labels are generated from locations.csv
-    Taken from course material.
     """
     def __init__(self, label):
         self.label = label
@@ -23,7 +22,6 @@ class Graph:
     """
     Creates a graph data structure from the location data.
     Each weighted edge comes from distances.csv
-    Taken from course material.
     """
     def __init__(self):
         """
